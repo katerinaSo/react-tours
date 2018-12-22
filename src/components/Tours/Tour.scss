@@ -1,7 +1,7 @@
 @import "../../index.scss";
 
 .Tour {
-  background: $secondaryLight;
+  background: $mainLight;
   border-radius: 0.8rem;
   margin: 1rem 0;
 }
@@ -20,7 +20,7 @@ img {
   display: block;
   top: 5%;
   right: 5%;
-  color: $mainGrey;
+  color: $mainGreen;
   font-size: 2rem;
   cursor: pointer;
   transition: all 0.3s linear;
@@ -33,20 +33,29 @@ img {
   padding: 0.1rem 1rem;
   h3 {
     text-transform: uppercase;
-    color: $mainLight;
+    color: $mainGreen;
+    font-family: "Righteous", cursive;
   }
   h4 {
+    font-family: "Roboto", sans-serif;
     text-transform: capitalize;
-    color: $mainColor;
+    color: $mainWarm;
     margin: 0.1rem 0 0.6rem 0;
   }
   h5 {
+    font-family: "Roboto", sans-serif;
     text-transform: capitalize;
+    font-size: 1rem;
+    color: $mainWarm;
     span {
-      color: $mainLight;
+      color: $mainGreen;
       margin: 0.5rem;
       font-size: 1rem;
       cursor: pointer;
     }
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    color: $mainWarm;
   }
 }
