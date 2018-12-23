@@ -19,7 +19,10 @@ class TourList extends Component {
       <section className="tourlist">
         {tours.map(tour => {
           return (
-            <Tour key={tour.id} tour={tour} removeTour={this.removeTour} />
+            <div>
+              <Tour key={tour.id} tour={tour} removeTour={this.removeTour} />
+              <p />
+            </div>
           );
         })}
       </section>

@@ -30,8 +30,8 @@ export default class Tour extends Component {
               <i className="fas fa-caret-square-down" />
             </span>
           </h5>
-          {this.state.showInfo && <p>{info}</p>}
         </div>
+        {this.state.showInfo && <p>{info}</p>}
       </article>
     );
   }
